@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css"  />
+        <title>Ramkee Nav Bar Example</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <!-- LOGO-->
+            <div class="logo"> Ramkee Nav</div>           
+            
+            <!-- Horizontal Nav Menu-->
+            <ul class="nav-links">
+                <!--Homburger Menu-->
+                <input type="checkbox" id="checboxToggle" />
+                <label for="checboxToggle" class="hamburger" >&#9776; </label>
+                <div class="menu">
+                    <li>
+                       <a href="/">
+                        Home
+                       </a> 
+                    </li>
+                    <li>
+                        <a href="/">
+                            Products
+                        </a>                        
+                    </li>
+                    <li class="services">
+                        <a href="/">Services</a>
+                        <ul class="dropdown">
+                            <li>
+                                <a href="/"> Dropdown 1</a>
+                                <a href="/"> Dropdown 2</a>
+                                <a href="/"> Dropdown 3</a>
+                                <a href="/"> Dropdown 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/">
+                            Contact us
+                        </a>                        
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </body>
+</html>
